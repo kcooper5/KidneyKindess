@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE27AED320227F470053C20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AED220227F470053C20C /* AppDelegate.swift */; };
+		FE27AED520227F470053C20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AED420227F470053C20C /* ViewController.swift */; };
+		FE27AED820227F470053C20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE27AED620227F470053C20C /* Main.storyboard */; };
+		FE27AEDA20227F470053C20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE27AED920227F470053C20C /* Assets.xcassets */; };
+		FE27AEDD20227F470053C20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE27AEDB20227F470053C20C /* LaunchScreen.storyboard */; };
+		FE27AEE820227F470053C20C /* kindeyKindnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AEE720227F470053C20C /* kindeyKindnessTests.swift */; };
+		FE27AEF320227F470053C20C /* kindeyKindnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AEF220227F470053C20C /* kindeyKindnessUITests.swift */; };
+		FE27AF3E202283E20053C20C /* DonorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AF3D202283E20053C20C /* DonorListViewController.swift */; };
+		FE27AF40202284530053C20C /* DonorFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AF3F202284530053C20C /* DonorFormViewController.swift */; };
+		FE27AF42202284D00053C20C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AF41202284D00053C20C /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE27AEE420227F470053C20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE27AEC720227F470053C20C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE27AECE20227F470053C20C;
+			remoteInfo = kindeyKindness;
+		};
+		FE27AEEF20227F470053C20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE27AEC720227F470053C20C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE27AECE20227F470053C20C;
+			remoteInfo = kindeyKindness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE27AECF20227F470053C20C /* kindeyKindness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kindeyKindness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE27AED220227F470053C20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE27AED420227F470053C20C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE27AED720227F470053C20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE27AED920227F470053C20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE27AEDC20227F470053C20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE27AEDE20227F470053C20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE27AEE320227F470053C20C /* kindeyKindnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kindeyKindnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE27AEE720227F470053C20C /* kindeyKindnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kindeyKindnessTests.swift; sourceTree = "<group>"; };
+		FE27AEE920227F470053C20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE27AEEE20227F470053C20C /* kindeyKindnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kindeyKindnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE27AEF220227F470053C20C /* kindeyKindnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kindeyKindnessUITests.swift; sourceTree = "<group>"; };
+		FE27AEF420227F470053C20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE27AF3D202283E20053C20C /* DonorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonorListViewController.swift; sourceTree = "<group>"; };
+		FE27AF3F202284530053C20C /* DonorFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonorFormViewController.swift; sourceTree = "<group>"; };
+		FE27AF41202284D00053C20C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE27AECC20227F470053C20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE27AEE020227F470053C20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE27AEEB20227F470053C20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE27AEC620227F470053C20C = {
+			isa = PBXGroup;
+			children = (
+				FE27AED120227F470053C20C /* kindeyKindness */,
+				FE27AEE620227F470053C20C /* kindeyKindnessTests */,
+				FE27AEF120227F470053C20C /* kindeyKindnessUITests */,
+				FE27AED020227F470053C20C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE27AED020227F470053C20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE27AECF20227F470053C20C /* kindeyKindness.app */,
+				FE27AEE320227F470053C20C /* kindeyKindnessTests.xctest */,
+				FE27AEEE20227F470053C20C /* kindeyKindnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE27AED120227F470053C20C /* kindeyKindness */ = {
+			isa = PBXGroup;
+			children = (
+				FE27AED220227F470053C20C /* AppDelegate.swift */,
+				FE27AED420227F470053C20C /* ViewController.swift */,
+				FE27AF41202284D00053C20C /* ProfileViewController.swift */,
+				FE27AF3D202283E20053C20C /* DonorListViewController.swift */,
+				FE27AF3F202284530053C20C /* DonorFormViewController.swift */,
+				FE27AED620227F470053C20C /* Main.storyboard */,
+				FE27AED920227F470053C20C /* Assets.xcassets */,
+				FE27AEDB20227F470053C20C /* LaunchScreen.storyboard */,
+				FE27AEDE20227F470053C20C /* Info.plist */,
+			);
+			path = kindeyKindness;
+			sourceTree = "<group>";
+		};
+		FE27AEE620227F470053C20C /* kindeyKindnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE27AEE720227F470053C20C /* kindeyKindnessTests.swift */,
+				FE27AEE920227F470053C20C /* Info.plist */,
+			);
+			path = kindeyKindnessTests;
+			sourceTree = "<group>";
+		};
+		FE27AEF120227F470053C20C /* kindeyKindnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE27AEF220227F470053C20C /* kindeyKindnessUITests.swift */,
+				FE27AEF420227F470053C20C /* Info.plist */,
+			);
+			path = kindeyKindnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE27AECE20227F470053C20C /* kindeyKindness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE27AEF720227F470053C20C /* Build configuration list for PBXNativeTarget "kindeyKindness" */;
+			buildPhases = (
+				FE27AECB20227F470053C20C /* Sources */,
+				FE27AECC20227F470053C20C /* Frameworks */,
+				FE27AECD20227F470053C20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kindeyKindness;
+			productName = kindeyKindness;
+			productReference = FE27AECF20227F470053C20C /* kindeyKindness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE27AEE220227F470053C20C /* kindeyKindnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE27AEFA20227F470053C20C /* Build configuration list for PBXNativeTarget "kindeyKindnessTests" */;
+			buildPhases = (
+				FE27AEDF20227F470053C20C /* Sources */,
+				FE27AEE020227F470053C20C /* Frameworks */,
+				FE27AEE120227F470053C20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE27AEE520227F470053C20C /* PBXTargetDependency */,
+			);
+			name = kindeyKindnessTests;
+			productName = kindeyKindnessTests;
+			productReference = FE27AEE320227F470053C20C /* kindeyKindnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE27AEED20227F470053C20C /* kindeyKindnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE27AEFD20227F470053C20C /* Build configuration list for PBXNativeTarget "kindeyKindnessUITests" */;
+			buildPhases = (
+				FE27AEEA20227F470053C20C /* Sources */,
+				FE27AEEB20227F470053C20C /* Frameworks */,
+				FE27AEEC20227F470053C20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE27AEF020227F470053C20C /* PBXTargetDependency */,
+			);
+			name = kindeyKindnessUITests;
+			productName = kindeyKindnessUITests;
+			productReference = FE27AEEE20227F470053C20C /* kindeyKindnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE27AEC720227F470053C20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kcooper5;
+				TargetAttributes = {
+					FE27AECE20227F470053C20C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FE27AEE220227F470053C20C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE27AECE20227F470053C20C;
+					};
+					FE27AEED20227F470053C20C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE27AECE20227F470053C20C;
+					};
+				};
+			};
+			buildConfigurationList = FE27AECA20227F470053C20C /* Build configuration list for PBXProject "kindeyKindness" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE27AEC620227F470053C20C;
+			productRefGroup = FE27AED020227F470053C20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE27AECE20227F470053C20C /* kindeyKindness */,
+				FE27AEE220227F470053C20C /* kindeyKindnessTests */,
+				FE27AEED20227F470053C20C /* kindeyKindnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE27AECD20227F470053C20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE27AEDD20227F470053C20C /* LaunchScreen.storyboard in Resources */,
+				FE27AEDA20227F470053C20C /* Assets.xcassets in Resources */,
+				FE27AED820227F470053C20C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE27AEE120227F470053C20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE27AEEC20227F470053C20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE27AECB20227F470053C20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE27AF3E202283E20053C20C /* DonorListViewController.swift in Sources */,
+				FE27AF40202284530053C20C /* DonorFormViewController.swift in Sources */,
+				FE27AF42202284D00053C20C /* ProfileViewController.swift in Sources */,
+				FE27AED520227F470053C20C /* ViewController.swift in Sources */,
+				FE27AED320227F470053C20C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE27AEDF20227F470053C20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE27AEE820227F470053C20C /* kindeyKindnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE27AEEA20227F470053C20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE27AEF320227F470053C20C /* kindeyKindnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE27AEE520227F470053C20C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE27AECE20227F470053C20C /* kindeyKindness */;
+			targetProxy = FE27AEE420227F470053C20C /* PBXContainerItemProxy */;
+		};
+		FE27AEF020227F470053C20C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE27AECE20227F470053C20C /* kindeyKindness */;
+			targetProxy = FE27AEEF20227F470053C20C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE27AED620227F470053C20C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE27AED720227F470053C20C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE27AEDB20227F470053C20C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE27AEDC20227F470053C20C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE27AEF520227F470053C20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE27AEF620227F470053C20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE27AEF820227F470053C20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kindeyKindness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kcooper5.kindeyKindness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE27AEF920227F470053C20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kindeyKindness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kcooper5.kindeyKindness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE27AEFB20227F470053C20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kindeyKindnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kcooper5.kindeyKindnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kindeyKindness.app/kindeyKindness";
+			};
+			name = Debug;
+		};
+		FE27AEFC20227F470053C20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kindeyKindnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kcooper5.kindeyKindnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kindeyKindness.app/kindeyKindness";
+			};
+			name = Release;
+		};
+		FE27AEFE20227F470053C20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kindeyKindnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kcooper5.kindeyKindnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kindeyKindness;
+			};
+			name = Debug;
+		};
+		FE27AEFF20227F470053C20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kindeyKindnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kcooper5.kindeyKindnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kindeyKindness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE27AECA20227F470053C20C /* Build configuration list for PBXProject "kindeyKindness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE27AEF520227F470053C20C /* Debug */,
+				FE27AEF620227F470053C20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE27AEF720227F470053C20C /* Build configuration list for PBXNativeTarget "kindeyKindness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE27AEF820227F470053C20C /* Debug */,
+				FE27AEF920227F470053C20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE27AEFA20227F470053C20C /* Build configuration list for PBXNativeTarget "kindeyKindnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE27AEFB20227F470053C20C /* Debug */,
+				FE27AEFC20227F470053C20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE27AEFD20227F470053C20C /* Build configuration list for PBXNativeTarget "kindeyKindnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE27AEFE20227F470053C20C /* Debug */,
+				FE27AEFF20227F470053C20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE27AEC720227F470053C20C /* Project object */;
+}
