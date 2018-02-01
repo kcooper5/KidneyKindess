@@ -17,6 +17,7 @@
 		FE27AF3E202283E20053C20C /* DonorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AF3D202283E20053C20C /* DonorListViewController.swift */; };
 		FE27AF40202284530053C20C /* DonorFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AF3F202284530053C20C /* DonorFormViewController.swift */; };
 		FE27AF42202284D00053C20C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AF41202284D00053C20C /* ProfileViewController.swift */; };
+		FE27AF442022DC620053C20C /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27AF432022DC620053C20C /* InformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FE27AF3D202283E20053C20C /* DonorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonorListViewController.swift; sourceTree = "<group>"; };
 		FE27AF3F202284530053C20C /* DonorFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonorFormViewController.swift; sourceTree = "<group>"; };
 		FE27AF41202284D00053C20C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FE27AF432022DC620053C20C /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				FE27AF41202284D00053C20C /* ProfileViewController.swift */,
 				FE27AF3D202283E20053C20C /* DonorListViewController.swift */,
 				FE27AF3F202284530053C20C /* DonorFormViewController.swift */,
+				FE27AF432022DC620053C20C /* InformationViewController.swift */,
 				FE27AED620227F470053C20C /* Main.storyboard */,
 				FE27AED920227F470053C20C /* Assets.xcassets */,
 				FE27AEDB20227F470053C20C /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 				FE27AF42202284D00053C20C /* ProfileViewController.swift in Sources */,
 				FE27AED520227F470053C20C /* ViewController.swift in Sources */,
 				FE27AED320227F470053C20C /* AppDelegate.swift in Sources */,
+				FE27AF442022DC620053C20C /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
