@@ -362,7 +362,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbf-sm-eCn">
                                 <rect key="frame" x="292" y="56" width="30" height="30"/>
@@ -388,6 +388,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="f3G-pZ-h0X" customClass="ProfileTabViewController" customModule="kindeyKindness" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SpK-dd-O6m">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -406,6 +407,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Vnl-oL-XW4" customClass="InfoViewController" customModule="kindeyKindness" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NC8-Su-8ju">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -428,7 +430,6 @@
         <image name="nicole" width="576" height="211"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TH7-ad-tH0"/>
         <segue reference="jaw-lO-6w6"/>
         <segue reference="5uQ-xu-ijl"/>
         <segue reference="l7Z-gk-bxo"/>
