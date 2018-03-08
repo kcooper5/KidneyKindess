@@ -8,8 +8,9 @@
 
 import UIKit
 import MessageUI
+import Foundation
 
-class DonorFormViewController: UIViewController, MFMailComposeViewControllerDelegate {
+class DonorFormViewController: UIViewController {
 
     @IBOutlet weak var emailButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
@@ -30,37 +31,12 @@ class DonorFormViewController: UIViewController, MFMailComposeViewControllerDele
     }
 //Open the email function
 
-    func configureMailController() -> MFMailComposeViewController {
-        let mailComposerVC = MFMailComposeViewController()
-        mailComposerVC.mailComposeDelegate = self
-        
-        mailComposerVC.setToRecipients(["andrew@seemuapps.com"])
-        mailComposerVC.setSubject("Hello")
-        mailComposerVC.setMessageBody("How are you doing?", isHTML: false)
-        
-        return mailComposerVC
+    @IBAction func openURL(sender: UIButton) {
+        let url = NSURL(string: "https://outlook.live.com/owa/")
+        public func open(_ url: URL, options: [String : Any] = [:],
+                         completionHandler completion: ((Bool) -> Swift.Void)? = nil)
     }
-    
-    func showMailError() {
-        let sendMailErrorAlert = UIAlertController(title: "Could not send email", message: "Your device could not send email", preferredStyle: .alert)
-        let dismiss = UIAlertAction(title: "Ok", style: .default, handler: nil)
-        sendMailErrorAlert.addAction(dismiss)
-        self.present(sendMailErrorAlert, animated: true, completion: nil)
-    }
-    
-    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-        controller.dismiss(animated: true, completion: nil)
-    }
-    
-    @IBAction func sendEmail(_ sender: Any) {
-        let mailComposeViewController = configureMailController()
-        if MFMailComposeViewController.canSendMail() {
-            self.present(mailComposeViewController, animated: true, completion: nil)
-        } else {
-            showMailError()
-        }
-    }
-    
+
 //Open the email function
 
     /*
