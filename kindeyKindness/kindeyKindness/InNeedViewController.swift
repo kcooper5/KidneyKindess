@@ -1,26 +1,39 @@
 //
-//  ProfileViewController.swift
+//  InNeedViewController.swift
 //  kindeyKindness
 //
-//  Created by user131292 on 1/31/18.
+//  Created by Robert Marcolina Jr. on 3/8/18.
 //  Copyright © 2018 kcooper5. All rights reserved.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
-    
-    @IBOutlet weak var moreInfoButton: UIButton!
+class InNeedViewController: UIViewController {
+
+    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var textView1: UITextView!
+    @IBOutlet weak var textView2: UITextView!
+    @IBOutlet weak var textView3: UITextView!
+    @IBOutlet weak var textView4: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
-//edit moreInfoButton apperance
-        moreInfoButton.layer.cornerRadius = 5
-        moreInfoButton.layer.borderWidth = 1
-        moreInfoButton.layer.borderColor = UIColor.black.cgColor
+        
+//links
+        textView1.isEditable = false
+        textView1.dataDetectorTypes = .link
+        
+        textView2.isEditable = false
+        textView2.dataDetectorTypes = .link
+        
+        textView3.isEditable = false
+        textView3.dataDetectorTypes = .link
+        
+        textView4.isEditable = false
+        textView4.dataDetectorTypes = .link
+        
     }
 
     override func didReceiveMemoryWarning() {

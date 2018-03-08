@@ -9,10 +9,16 @@
 import UIKit
 
 class   ViewController: UIViewController {
-
+    
+    @IBOutlet weak var loginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//edit loginButtonApperance
+        loginButton.layer.cornerRadius = 5
+        loginButton.layer.borderWidth = 1
+        loginButton.layer.borderColor = UIColor.black.cgColor
     }
 
     override func didReceiveMemoryWarning() {

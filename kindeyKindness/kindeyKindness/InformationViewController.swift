@@ -10,10 +10,29 @@ import UIKit
 
 class InformationViewController: UIViewController {
 
+    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var textView5: UITextView!
+    @IBOutlet weak var textView6: UITextView!
+    @IBOutlet weak var textView7: UITextView!
+    @IBOutlet weak var textView8: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+//Link
+        textView5.isEditable = false
+        textView5.dataDetectorTypes = .link
+        
+        textView6.isEditable = false
+        textView6.dataDetectorTypes = .link
+        
+        textView7.isEditable = false
+        textView7.dataDetectorTypes = .link
+        
+        textView8.isEditable = false
+        textView8.dataDetectorTypes = .link
     }
 
     override func didReceiveMemoryWarning() {
